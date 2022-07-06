@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: sans-serif , fantasy , serif;
+  font-size: large;
+  font-style: italic;
+  padding: 10px 30px 20px;
+  line-height: 30px;
+}
+
+header , #cabecalho {
+  top: 0;
+  background-color: rgb(5, 160, 5);
+  height: 20px;
+  text-align: center;
+  padding: 30px 1px;
+  border: 10px solid brown;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 3px 3px 6px rgb(15, 18, 238);
+}
+
+#titulo {
+  color: blue;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+aside {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  margin-top: 100px;
+}
+
+article {
+  margin-left: 550px;
+  margin-right: 550px;
+  margin-top: 120px;
+  text-align: justify;
+  box-shadow: 2px 2px 1px green;
+  padding: 30px;
+  background-color: green;
+  border: 2px solid black;
+  width: 60%;
+}
+
+.minha_foto {
+  margin: 20px -5px 10px 10px;
+  padding: 20px;
+  text-align: justify;
+  box-shadow: 2px 2px 1px greenyellow;
+  z-index: 1;
+  align-self: center;
+  background-color: green;
+  border: 2px solid black;
+}
+
+#minha_foto {
+  margin-left: 25px;
+  width: 90%;
+  border-radius: 50%;
+  border: 5px solid goldenrod;
+  opacity: 0.8;
+}
+
+.conteudoprincipal {
+  margin-left: 550px;
+  height: 100%;
+  width: 64%;
+  display: flex;
+}
+
+main {
+  display: block;
+}
+
+.contato {
+  margin: 20px 10px 10px;
+  box-shadow: 2px 2px 1px rgb(10, 10, 10);
+  display: block;
+  border: 2px solid rgb(19, 13, 13);
+  width: 94%;
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  background-color: green;
+}
+
+#erick {
+  text-align: center;
+}
+
+.licoesaprendidas , .licoesaaprender , .sitesdeprogramacao {
+  border: 5px solid green;
+  margin-top: 30px;
+  padding: 30px;
+  border-top-width: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.lado-esquerdo , .lado-direito {
+  text-decoration: none;
+  font-display: auto;
+}
+
+#rodape {
+  text-align: center;
+  border-top: 4px solid brown;
+  background-color: aqua;
+  height: 40px;
+  position: relative;
+  bottom: -40px;
+  text-decoration: underline;
+  font-size: 18px;
+  padding: 10px 0;
+  display: block;
+  box-sizing: inherit;
+  list-style-type: none;
+  line-height: 15px;
+  width: 95%;
+}
+
+/* Aqui termina meu projeto */
